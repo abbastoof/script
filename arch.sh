@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x  # Enable debugging
 # Partitioning
 gdisk /dev/sda <<EOF
 o
